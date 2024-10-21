@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    margin: 30px 30px 0px 0px;
+}
+.n_main{
+    display: flex;
+    align-items: center;
+   a{
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+   }
+   input{
+    width:  600px;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: rgb(220, 215, 215);
+    padding-left:20px ;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(34, 33, 33);
+    border-radius: 25px;
+    border: none;
+   }
+   .icons{
+    display: flex;
+    gap: 10px;
+    
+    img{
+        width: 24px;
+        height: 24px;
+       
+    }
+   
+   
+    
+   }
+   img{
+    width:160px;
+    height: 22px;
+   }
+
+}
+.header {
+    padding: 100px 0;
+    background-color: #f7f7f7;
+    background: url(https://s3-alpha-sig.figma.com/img/b26f/ea69/ccfd8aa5825862cdb9604a4fb4930464?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PJBjpVw9yPz4gG4JWh1iYGmKMhffa6-pDXGo6vLn8ZFcXZA6hhFl0yo-mHT5SSCJt0xOVJfI2S1FUfR31O-R7fJ4oC8SxLoCTEqgRklKSlPU1hy6Nu9fMMgGZqWdroHn4u29KG~ftCXhyfn9-x3cBnUz22dhb2EbtrZQsR9-IzyaRuabYmMsySxNym9d59ZYfVHRCiTi6vxwoUcQfXSL58ZBK53cNOlUPfcYYyHvZa3F5b~P8hMkgqVDgzSQEpWjTAN3FoYfOTDZWg48TEpxOGSkrfSHjyO9eWRI~YOR59Kbw6oD16cRJ91NKJtLVjk-GNHnTaRSuMV6u4LZ~jMaaA__)no-repeat center center/cover
+   
+    
+      
+  }
+  
+  .h_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .img_div {
+    flex: 1;
+  }
+  
+  .yozuv {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .btn_shop {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn_shop:hover {
+    background-color: #333;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .stat_item {
+    text-align: center;
+  }
+  
+  .stat_item h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .stat_item p {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .qq_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    padding: 0px 20px;
+    margin: 70px 0px;
+}
+.img-main{
+   padding: 100px 0px;
+}
+.hq{
+font-size: 48px;
+font-weight: 700;
+padding: 70px 0px;
+}
+
+.h11{
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 60px;
+}   
+
+
+  .dd120{
+    font-size: 20px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 5%;
+        img{
+            border-radius: 10px;
+        }
+    }
+   .card.s{
+    padding: 100px 0;
+   }
+
+   .s_h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .STAY {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px 0px;
+  }
+  
+  .S_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 100px 0px;
+    border-radius: 30px;
+  }
+  .enter {
+    margin: 10px 0px;
+    width: 250px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+  
+  .to{
+    border-radius: 25px;
+    width: 250px;
+    height: 45px;
+    border: none;
+    font-size: 15 px;
+  }
+
+  .hp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    item{
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 2px;
+        }
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+  }
+
+       
+  
